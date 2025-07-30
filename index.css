@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    
+    min-height: 100vh;
+    background: url('images/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+
+#logo{
+    width: 19vw;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.3));
+}
+h1{
+    color: aliceblue;
+    font-family: "Protest Guerrilla", sans-serif;
+    text-align: center;
+      line-height: 1.5;
+}
+#name{
+    color: aqua;
+    font-size: 40px;
+}
+#va{
+    color: chartreuse;
+    font-size: 40px;
+}
+#voice{
+    width: 150px;
+    display:none;
+}
+.main-section {
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* #btn{
+    width: 20%;
+    background-image: linear-gradient(to right,rgb(0, 255, 255),rgb(127, 255, 0));
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgb(0, 255, 255),2px 2px 10px rgb(127, 255, 0);
+    transition:all 0.5s;
+    cursor: pointer;
+} */
+ #btn {
+    max-width: 300px;
+    width: fit-content;
+    background-image: linear-gradient(to right, rgb(0, 255, 255), rgb(127, 255, 0));
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 10px rgb(0, 255, 255), 2px 2px 10px rgb(127, 255, 0);
+    transition: all 0.5s;
+    cursor: pointer;
+    white-space: nowrap; /* prevents text from breaking into a new line */
+}
+
+#btn:hover{
+    letter-spacing: 2px;
+    box-shadow: 2px 2px 20px rgb(21, 1, 1),2px 2px 20px rgb(11, 11, 11);
+}
